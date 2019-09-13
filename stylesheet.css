@@ -1,0 +1,160 @@
+*{
+    color:#101010;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding:0;
+    margin:0;
+
+}
+
+
+.ultopnav {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+li {
+  float: right;
+}
+
+.icon{
+    float:left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/*End of Nav Bar*/
+
+.page_wrapper{
+    margin-left: 150px;
+    margin-right:150px;
+}
+
+/*Hero Area*/
+
+.hero_bg {
+    height: 300px;
+    background:black;
+
+}
+.hero_wrapper{
+    padding: 80px 0px 80px 0px;
+}
+
+.title_h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+     color: white;
+
+}
+
+#sptitle_h1{
+     font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+/*End of Hero Area*/
+
+/**/
+.cstudy_section{
+    margin-top: 64px;
+}
+/**/
+
+/*start About section*/
+.am_section{
+        margin-top: 64px;
+
+}
+
+.qoute_section{
+    background:#CACACA;
+    height: 200px;
+    padding: 40px 0 40px 0;
+    margin-top: 2rem;
+    
+}
+.qh2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.qspace{
+padding:padding:80px 0 80px 0px;
+    margin-top: 32px;
+      margin-bottom: 32px;
+}
+
+/*End about section*/
+.cards {
+   border: 1px solid #272727;
+   padding: 1em;
+
+}
+
+.c_grid {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-auto-rows:minmax (100px, auto);
+    grid-gap: 1rem;
+}
+
+.clink {
+    margin-top: 21px;
+    border: 2px solid #B200FD;
+    color: #B200FD;
+    text-decoration: none;
+    Padding:5px;
+    
+
+}
+.clink:hover{
+background-color:#B200FD;
+text-decoration:none;
+color:white;
+}
+
+.cp {
+    margin-bottom: 16px;
+ font-weight: lighter;
+}
+
+.bheader {
+    margin-bottom: 1rem;
+}
+.subheader{
+    margin-bottom:1rem;
+    font-style: italic;
+
+}
+
+.abtp {
+    margin-bottom: 16px;
+}
+
+.ch {
+margin: 16px 0 16px 0;
+}
