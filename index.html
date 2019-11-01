@@ -1,114 +1,171 @@
 <html lang="en">
-<head>
-
+<header>
 <meta viewport="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 
-<title>Rsaddler Portfolio</title>
+<title>Radcliffe Saddler's portfolio</title>
 <link rel="stylesheet" href="stylesheet.css">
+</header> 
 
+  
+  <body>
    <!--Nav bar-->
-    <ul class="ultopnav">
-        <li><a href="#">Resume</a></li>
-        <li><a href="#Aboutme">About me</a></li>
-        <li><a href="#">Case studies</a></li>
-        <li><a href="#">Home</a></li>
-       <li class="icon"><a  href="#">ICON</a></li>
+   <section class="herosection">
+   <div class="headwrapper">
+     
+      <div class="logo">
+       <a href="#"><img src="img/logo.svg"></a>
+      <span class="logotext">Radcliffe Saddler Jr</span>
+    </div>
+    
+    <ul class="lunorderlist">
+        <li class="liunorderlist">Home</li>
+        <li class="liunorderlist">Work</li>
+        <li class="liunorderlist">About me</li>
+        <li class="liunorderlist">Resume</li>
     </ul>
-</head>
+   </div>
+</section>
+   
+   <!--lunorderlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.liunorderlist{
+  float: left;
+}
+
+.liunorderlist a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.liunorderlist a:hover {
+  background-color: #111;
+}-->
+   
+   
+
+<main>
+   
+    <!--Hero-->
+    <section id="hero">
+        
+ <div class="globalwrapper">
+        
+   <h2 id="htitle"> Radcliffe Saddler</h2>
+    <h2 id="htitle"> Is a user experience designer</h2>
+    <h2 id="htitle"> Base in New York City</h2>
+     </div>
+     </section>
+      <!--End of Hero-->
+     
+        <!--Portfolio section-->
+    <section id="portfolio">
+ <div class="globalwrapper">
+<h2> Portfolio</h2>
+<span>Work done by me</span>
+<h4> IBM</h4>
+        
+        <div class="portfoliogrid"> 
+         <div class="contentgrid"><h4>Bilingual ecard</h4>
+         <p>orem ipsum dolor sit amet, consectetur adipisicing elit. Magni iure aperiam sed dicta a id aliquid eveniet saepe perspiciatis cupiditate rem ipsum vitae error, ad quod sequi molestiae aliquam, modi?</p>
+         <a>View project</a>
+         </div>
+          
+        <div class="contentgrid"><h4>Error page</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex vero at vel, rem doloribus blanditiis aliquam. Nostrum, libero illum ipsam eos architecto, veritatis. Officiis architecto, numquam illum. Exercitationem, unde, earum!</p><a>View project</a></div>
+           </div>
+           
+ <h4> Passion projects</h4>
+<span>Side projects I do on my free time</span>
+       <div class="portfoliogrid"> 
+        <div class="contentgrid"><h4>Identity design</h4><p>Learn how I create a logo and other brand assest for a volunteer group of Black rpofessionals in IBM</p><a>View project</a></div>
+          
+      
+          <div class="contentgrid"><h4>Job listing</h4><p>Neighborhood Houseorem ipsum dolor sit amet, consectetur adipisicing elit. Magni iure aperiam sed dicta a id aliquid eveniet saepe perspiciatis cupiditate rem ipsum vitae error, ad quod sequi molestiae aliquam, modi?</p><a>View project</a></div>
+        </div>
+</div>
+</section>
+          <!-- End of Portfolio section-->
+     
+<!-- Start of About me Section-->       
+<section>
+ <div class="globalwrapper">
+   <h2> About me</h2>
+   
+   <h4>IBM</h4>
+<div class="twocolgrid">
+  <div>
+<img src="Rad.png" alt="Profile image of Radcliffe Saddler">
+     </div> 
+     
+     <div>
+     <p>After graduating from P-TECH in 2015, Rad immediately went to work at IBM and enrolled in Baruch College. For the past four years, he has been juggling the demands of work and school. He started his IBM career as an analyst, extracting insights from marketing data. He was soon looking to expand his technical skill set and became a user experience designer. In June 2015, Rad graduated from Baruch with a Bachelor's Degree in public affairs. Long term, Rad wants to devote his career to exploring how public/private partnerships can benefit mankind.</p>
+     <a>Linkedin profile -></a>
+     </div>
+     
+   </div>
+   
+   <h4>Services</h4>
+   <div>
+     <div>Web development</div> 
+     <div> User Experience design</div>
+    <div> User research</div>
+   
+   </div>
+   
+   <h4>Work history</h4>
+ 
+   </div> 
+</section>  
+    <!-- End of About me Section-->   
+      
+     <!-- Start of Contact form-->     
+<section class="contact">
+ <div class="globalwrapper">
+     <div class="contactgrid">
+    <h2>Contact form</h2>
+    <div class="contactwrapper">
+  <form action="/action_page.php">
+    <label for="fname">First Name and Last name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
 
-<body>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-
-<section class="hero_bg">
-   <div class="page_wrapper">
-   <div class="hero_wrapper">
-    <h1 class="title_h1">Radcliffe Saddler Jr.</h1>
-    <h1 id="sptitle_h1">ASSOCIATE DESIGNER</h1>
-    <h1 Class="title_h1">Base in NYC</h1>
-       </div>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    
+  
+    
     </div>
-</section>
-
-<div class="page_wrapper">
-
-<section class="cstudy_section">
-<h2 class="bheader">CASE STUDIES</h2>
-<p class="subheader">A few bodies of work.</p>
-
-<div class="c_grid"><!--Start of Card Grid-->
-
-<div class="cards">
-<img src="img/Bluemine_icon.png" alt="">
-<br>
-<h3 class="ch">Bluemine automated</h3>
-<p class="cp">My approach to reducing user email fatigue within IBM's bluemine platform</p>
-<a class="clink" href="#">Read more</a>
-</div>
-
-<div class="cards">
-<img src="img/built.png" alt="">
-<br>
-<h3 class="ch">Built by me</h3>
-<p class="cp">Learn why I decided to built my portfolio site</p>
-<a class="clink" href="#">Read more</a>
-</div>
-
-</div>
-<!--End of Card Grid-->
-
-</section> <!--End of Case study section-->
-
-<section class="am_section">
-
-<h2 class="bheader" id="Aboutme">About Me</h2>
-<p class="subheader">Learn why I became a designer and quick facts about me. </p>
-<p class="abtp">The first time I heard about user experience design was from a former colleague of mine back in 2017. Her job was to improve the user experience of an internal product that hosted data and market research. At that time in my professional career, I was a 20-year-old Associate analyst at IBM with two years of experience on the job. My day job consisted of making email templates and Powerpoint presentations. I grew tired of my role because it wasn't what I wanted to do anymore. I wanted to work on technology that I felt was creating an impact on someone else's life. I wanted to be in a role where my computer science skills would grow, and my intellect challenged.</p>
-<p class="abtp">Fate would have it that my user experience colleague and I peer up for a stretch project.  During that time, I made sure to connect with her, and she became my mentor.</p>
-<p class="abtp">Since meeting my mentor in 2017, I became an associate designer. I am still learning and improving my craft. I continue to be a designer because I feel empowered knowing I can create experiences that help others accomplish their goals.</p>
-</section>
-  </div>
-    <!--End of Wrapper-->
-
-<section class="qoute_section">
-<div class="page_wrapper">
-<div class="qspace">
-<blockquote><h2 class="qh2">"Be diligent and believe in yourself."</h2>
-<span>- Radcliffe Saddler Jr.</span></blockquote>
-</div>
-
- </div>
-    <!--End of Wrapper-->
-</section>
-
-<div class="page_wrapper">
-<section class="am_section">
-<span>Professional career</span>
-<ul><li>IBM Associate Designer August 2017 -present</li>
-<li>IBM Associate Analyst July 2015 - August 2017</li>
-
-</ul>
-
-<span>Professional career</span>
-<ul><li>IBM Associate Designer August 2017 -present</li>
-<li>IBM Associate Analyst July 2015 - August 2017</li>
-
-</ul>
-
-
-<span>Professional career</span>
-<ul><li>IBM Associate Designer August 2017 -present</li>
-<li>IBM Associate Analyst July 2015 - August 2017</li>
-
-</ul>
-</section>
-
-
-
     </div>
-    <!--End of Wrapper-->
+    </section> 
+      <!-- Start of Contact form-->     
+    
+    
+</main>
+</body>
 
- </body>
+<footer>
+  
+   <section class="footersection">
+    <h2>Designed by Radcliffe Saddler</h2>
+    <span>2019</span>
+    </section>
+    
+</footer>
 
 </html>
