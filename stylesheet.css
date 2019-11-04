@@ -6,6 +6,10 @@
 
  }
 
+a{
+ color: #B200FD;
+}
+
 
 .globalwrapper{
     margin-left: 150px;
@@ -19,37 +23,37 @@
     grid-auto-rows:minmax(100px, auto);
     grid-gap: 2em;
     border: 2px;
-    background:#EAEAEA;
+ 
 }
 .portfolio{
-    height:400px;
-    width:100%;
-    background-color:green;
-    margin-bottom: 80px;   
+    height:auto;
+    background-color:#F8F8F8;
+  padding:80px 0px 60px 0px;   
+    
 }
 
 .contentgrid{
-    display:grid;
+display:grid;
 grid-row-gap: 1em;
 }
 
 .twocolgrid{
     display:grid;
     grid-template-columns:repeat(2, 1fr);
-    grid-gap: 1em;
+    grid-gap: 2em;
+    margin-top: 32px;
 }
 
 #hero{
-
-height:400px;
+height: auto;
     width:100%;
     color:white;
    background-image:url(img/hero_background.png);
     background-repeat: no-repeat;
     background-size:cover;
     text-align: left;
-    margin-bottom: 100px;
-    padding-top: 80px;
+
+    padding: 80px 0px 80px 0px;
 }
 
 #htitle{
@@ -59,7 +63,8 @@ height:400px;
 
 .logotext{
     font-size:1.8rem;
-    color:#B200FD;
+    color:#605E60;
+    padding-left: 8px;
 }
 
 lunorderlist {
@@ -67,7 +72,7 @@ lunorderlist {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  color: #B200FD;
 }
 
 .liunorderlist{
@@ -81,10 +86,14 @@ lunorderlist {
   padding: 14px 16px;
   text-decoration: none;
 }
+.logoLinks{
+color: #B200FD;
+text-decoration: none;
+}
 
-.liunorderlist:hover {
+.logolinks:hover {
   background-color: #B200FD;
-    color:white;
+    color:#FFF;
 }
     
 .herosection {
@@ -96,16 +105,77 @@ lunorderlist {
 
 .contact{
     height:auto;
+    background:#F8F8F8;
+}
 
-}
-.contactgrid{
-    display: grid;
-    grid-template-columns: 1 1fr;
-}
+
 .footersection{
     background-color: #343334;
     text-align: center;
     color:white;
     height: auto;
     padding: 40px 0px 40px 0px;
+}
+.card {
+    width:300px;
+    background-color: #EAEAEA;
+    padding:1rem;
+    margin:16px 0px 16px 0px;
+    border-radius: 16px;
+    
+}
+
+.subtitle {
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+    color:#605E60;
+    margin-top: 32px;
+}
+
+.aboutsection {
+    padding: 80px 0px 60px 0px;
+}
+
+
+.form-control {
+    width: 600px; 
+    background:transparent; 
+    margin-bottom: 16px; 
+    border:none;
+    color:#000;
+    border-bottom: 2px solid #B200FD;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+input{
+    height:45px;
+}
+
+form .submit{
+      background:#ff5722;
+   /* padding: 4px 8px 4px 8px;
+  
+    border-color:transparent; 
+    font-size: 20px;*/
+}
+
+#contacttitle {
+    color:#383838;
+    
+}
+
+/*Error page styling*/
+
+#errorpagehero{
+    background-color: #9999;
+    padding: 80px 0px 60px 0px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
