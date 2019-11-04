@@ -18,11 +18,13 @@
       <span class="logotext">Radcliffe Saddler Jr</span>
     </div>
     
+
+    
     <ul class="lunorderlist">
-        <li class="liunorderlist">Home</li>
-        <li class="liunorderlist">Work</li>
-        <li class="liunorderlist">About me</li>
-        <li class="liunorderlist">Resume</li>
+        <li class="liunorderlist"> <a class="logoLinks" href="index.html">Home</a></li>
+        <li class="liunorderlist"> <a class="logoLinks" href="#portfolio">Portfolio projects</a></li>
+        <li class="liunorderlist"> <a class="logoLinks" href="#Aboutme">About me</a></li>
+        <li class="liunorderlist"> <a class="logoLinks" href="https://drive.google.com/file/d/18uKi2v_n2-BhjzoB1OT3ORdaZi_XQmEP/view?usp=sharing#" target="_blank">Resume(CV)</a></li>
     </ul>
    </div>
 </section>
@@ -60,47 +62,61 @@
         
  <div class="globalwrapper">
         
-   <h2 id="htitle"> Radcliffe Saddler</h2>
-    <h2 id="htitle"> Is a user experience designer</h2>
-    <h2 id="htitle"> Base in New York City</h2>
+   <h2 id="htitle">Radcliffe Saddler</h2>
+    <h2 id="htitle">is a user experience designer</h2>
+    <h2 id="htitle">base in New York City</h2>
      </div>
      </section>
       <!--End of Hero-->
      
+       
+       
+       
         <!--Portfolio section-->
-    <section id="portfolio">
+    <section class="portfolio">
  <div class="globalwrapper">
-<h2> Portfolio</h2>
+<h2 id="portfolio"> Portfolio projects</h2>
 <span>Work done by me</span>
-<h4> IBM</h4>
+<h4 class="subtitle"> IBM</h4>
+       <p>During my career at IBM</p>
         
-        <div class="portfoliogrid"> 
+        <div class="portfoliogrid">
+        <div class="card"> 
          <div class="contentgrid"><h4>Bilingual ecard</h4>
          <p>orem ipsum dolor sit amet, consectetur adipisicing elit. Magni iure aperiam sed dicta a id aliquid eveniet saepe perspiciatis cupiditate rem ipsum vitae error, ad quod sequi molestiae aliquam, modi?</p>
          <a>View project</a>
          </div>
-          
-        <div class="contentgrid"><h4>Error page</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex vero at vel, rem doloribus blanditiis aliquam. Nostrum, libero illum ipsam eos architecto, veritatis. Officiis architecto, numquam illum. Exercitationem, unde, earum!</p><a>View project</a></div>
+        </div>
+        
+          <div class="card"> 
+        <div class="contentgrid"><h4>Error page</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex vero at vel, rem doloribus blanditiis aliquam. Nostrum, libero illum ipsam eos architecto, veritatis. Officiis architecto, numquam illum. Exercitationem, unde, earum!</p><a href="errorpage.html">View project</a></div>
            </div>
+     </div>
            
- <h4> Passion projects</h4>
-<span>Side projects I do on my free time</span>
+ <h4 class="subtitle"> Passion projects</h4>
+<p>Side projects I do on my free time</p>
        <div class="portfoliogrid"> 
-        <div class="contentgrid"><h4>Identity design</h4><p>Learn how I create a logo and other brand assest for a volunteer group of Black rpofessionals in IBM</p><a>View project</a></div>
+         <div class="card"> 
+        <div class="contentgrid"><h4>Identity design</h4><p>Learn how I create a logo and other brand assest for a volunteer group of Black rpofessionals in IBM</p><a>View project</a></div></div>
           
-      
-          <div class="contentgrid"><h4>Job listing</h4><p>Neighborhood Houseorem ipsum dolor sit amet, consectetur adipisicing elit. Magni iure aperiam sed dicta a id aliquid eveniet saepe perspiciatis cupiditate rem ipsum vitae error, ad quod sequi molestiae aliquam, modi?</p><a>View project</a></div>
+        <div class="card"> 
+          <div class="contentgrid"><h4>Job listing</h4><p>Neighborhood Houseorem ipsum dolor sit amet, consectetur adipisicing elit. Magni iure aperiam sed dicta a id aliquid eveniet saepe perspiciatis cupiditate rem ipsum vitae error, ad quod sequi molestiae aliquam, modi?</p><a>View project</a></div></div>
         </div>
 </div>
 </section>
           <!-- End of Portfolio section-->
+    
      
+      
+       
+        
+         
+           
 <!-- Start of About me Section-->       
-<section>
+<section class="aboutsection">
  <div class="globalwrapper">
-   <h2> About me</h2>
-   
-   <h4>IBM</h4>
+   <h2 id="Aboutme"> About me</h2>
+   <span>Learn a little bit more about me.</span>
 <div class="twocolgrid">
   <div>
 <img src="Rad.png" alt="Profile image of Radcliffe Saddler">
@@ -108,7 +124,7 @@
      
      <div>
      <p>After graduating from P-TECH in 2015, Rad immediately went to work at IBM and enrolled in Baruch College. For the past four years, he has been juggling the demands of work and school. He started his IBM career as an analyst, extracting insights from marketing data. He was soon looking to expand his technical skill set and became a user experience designer. In June 2015, Rad graduated from Baruch with a Bachelor's Degree in public affairs. Long term, Rad wants to devote his career to exploring how public/private partnerships can benefit mankind.</p>
-     <a>Linkedin profile -></a>
+     <a href="https://www.linkedin.com/in/rsjr/" target="_blank">Linkedin profile -></a>
      </div>
      
    </div>
@@ -130,27 +146,26 @@
      <!-- Start of Contact form-->     
 <section class="contact">
  <div class="globalwrapper">
-     <div class="contactgrid">
-    <h2>Contact form</h2>
+     
+    <h2 id="contacttitle">Contact form</h2>
+    
     <div class="contactwrapper">
-  <form action="/action_page.php">
-    <label for="fname">First Name and Last name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  <form method="post"  class="form-control" action="">
+  
+    <input type="text" name="Name"  class="form-control" placeholder="Your name" required><br>
 
-    <label for="lname">email</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <input type="email" name="email"  class="form-control" placeholder="Your email" required><br>
 
+    <textarea  name="message" class="form-control" placeholder="Please, share your thought in this text area" rows="4" required></textarea><br>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
+    <input type="submit" value="send message" class="form-control">
+    </form>
+    
 </div>
     
   
     
-    </div>
+
     </div>
     </section> 
       <!-- Start of Contact form-->     
