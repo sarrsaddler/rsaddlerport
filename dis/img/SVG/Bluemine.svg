@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="74px" viewBox="0 0 73 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Bluemine</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Bluemine" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <ellipse id="Oval" fill="#E8E8E8" cx="36.5" cy="37" rx="36.5" ry="37"></ellipse>
+        <g id="Group-3" transform="translate(13.000000, 20.000000)">
+            <polygon id="Path-3" fill="#FFFFFF" points="35.7142857 0 44 14.6363636 21.2142857 23 15 8.36363636"></polygon>
+            <polygon id="Path-2" fill="#06B9CF" points="0 15 23.047619 38 44 15"></polygon>
+            <polygon id="Path-4" fill="#9DE3F2" points="8.23529412 0 0 15.0769231 12.3529412 28 35 0"></polygon>
+        </g>
+    </g>
+</svg>
