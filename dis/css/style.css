@@ -212,6 +212,45 @@ font-style: italic;
 .text-style{
   text-align: left;
 }
+/*JPC Job Posting Cite*/
+.jpc-A-sect{
+  background:#fff;
+  height: auto;
+  padding-top: 3em;
+  padding-bottom:3em;
+  color: black;
+}
+#context-div{
+  text-align: left;
+}
+
+.jpc-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:2em;
+}
+/*BNNY*/
+.bnny-A-sect{
+  background:#fff;
+  height: auto;
+  padding-top: 3em;
+  padding-bottom:3em;
+  color: black;
+}
+.bnny-A-sect ul{
+  list-style: none;
+}
+
+#content-left{
+  text-align: left;
+}
+
+.bnny-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:2em;
+}
+
 
 /* Global Utlitiy Classes*/
 
@@ -398,6 +437,12 @@ font-style: italic;
       padding: 3em 3em;
     }
     .error-grid{
+      grid-template-columns: 1fr;
+    }
+    .jpc-grid{
+      grid-template-columns: 1fr;
+    }
+    .bnny-grid{
       grid-template-columns: 1fr;
     }
   }
