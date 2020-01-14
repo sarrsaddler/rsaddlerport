@@ -159,6 +159,13 @@ overflow: hidden;
   background-color: blueviolet;
   border-radius: 8px;
   margin-bottom:1rem;
+  box-shadow: 0px 12px 15px rgba(52, 2, 2, 0.1);
+  transition: all 0.3s ease 0s;
+}
+.download-btn:hover{
+  background-color: #1B1F3B;
+  box-shadow: 0px 15px 20px rgba(12, 10, 14, 0.4);
+  color: #FFF;
 }
 
 /*Resume Page*/
